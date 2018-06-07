@@ -38,7 +38,7 @@ USE_DEVICE_SPECIFIC_CAMERA := true
 
 # Fs configs
 TARGET_FS_CONFIG_GEN := \
-      $(DEVICE_PATH)/configs/file_caps.fs
+      $(COMMON_PATH)/configs/file_caps.fs
 
 # Extended Filesystem Support
 TARGET_EXFAT_DRIVER := sdfat
